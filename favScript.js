@@ -71,10 +71,10 @@ const deleteMovie = (e) => {
   //Get the specific movie
   const movie = document.getElementById(`${delID}`);
 
-  //Delete movie from view
+
   movie.remove();
 
-  //Delete the movie from list
+
   favMovies = favMovies.filter((id) => id != delID);
 
   //Add new data of favMovies to localstorage
