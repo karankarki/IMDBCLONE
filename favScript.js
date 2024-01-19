@@ -17,7 +17,7 @@ async function getData(movieID) {
   ); //Get data from API using IMDB id
   const movieDetails = await result.json(); //Make data readable
 
-  AddMovie(movieDetails); //Add to DOM
+  AddMovie(movieDetails); //aDDING TO dom
 }
 
 //Add movie to DOM
